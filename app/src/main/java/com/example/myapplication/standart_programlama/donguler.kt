@@ -17,6 +17,10 @@ fun main() {
         //20 ile 10 arasında 5 azalma
         println("Döngü 3: $a")
     }
-
+    var sayac = 1
+    while (sayac < 4){
+        println("Döngü 4: $sayac")
+        sayac= sayac+1 // sayac+=1 de olur sayac++ da olur
+    }
 
 }
