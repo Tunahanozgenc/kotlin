@@ -22,5 +22,20 @@ fun main() {
         println("Döngü 4: $sayac")
         sayac= sayac+1 // sayac+=1 de olur sayac++ da olur
     }
-
+    for (i in 1..5){
+        println("döngü 5: $i")
+    }
+    for (i in 1..5){
+        if (i==3){
+            break//döngüyü durdurur
+        }
+        println("döngü 6: $i")
+    }
+    for (i in 1..5){
+        if (i==3){
+            println("3 sayısı atlandı")
+            continue//bu adımı atlar pas geçer
+        }
+        println("döngü 7: $i")
+    }
 }
