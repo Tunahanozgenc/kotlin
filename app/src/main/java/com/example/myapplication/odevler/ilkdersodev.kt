@@ -1,4 +1,4 @@
-package com.example.myapplication.degiskenler
+package com.example.myapplication.odevler
 
 fun main() {
     val sehir: String = "Trabzon"
