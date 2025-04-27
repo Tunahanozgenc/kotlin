@@ -30,7 +30,4 @@ fun main() {
         println("Girdiğiniz sayı yaş değerinden büyüktür")
     }
 
-
-
-
 }
