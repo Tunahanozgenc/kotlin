@@ -12,7 +12,7 @@ fun main() {
     yemekKaloriMapi.put("Çilek",200)
 
     println(yemekKaloriMapi.get("Armut"))
-    yemekKaloriMapi.put("elma",200)//elma zaten averdı üzerine yazdı
+    yemekKaloriMapi.put("elma",200)//elma zaten vardı üzerine yazdı
 
 
 
